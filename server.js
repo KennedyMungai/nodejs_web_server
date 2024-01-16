@@ -15,4 +15,4 @@ const server = http.createServer((req, res) => {
     console.log(req.url, req.method)
 })
 
-// myEmitter.on('log', (msg) => logEvents(msg))
+server.listen(PORT, () => console.log(`Server running on port ${PORT}`))
