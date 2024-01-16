@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
         res.statusCode = 200
         res.setHeader('Content-Type', 'text/html')
         filePath= path.join(__dirname, 'views', 'index.html')
-        fs.readFile(path, (err, data) => {
+        fs.readFile(filePath,'utf-8', (err, data) => {
             res.end(data)
         })
     }
