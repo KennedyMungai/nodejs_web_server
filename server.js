@@ -45,6 +45,8 @@ const server = http.createServer((req, res) => {
 
     // Makes the .html extension not required in the browser
     if(!extension && req.url.slice(-1) !== '/') filePath += '.html'
+
+    const fileExists = fs.existsSync(filePath)
 })
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`))
