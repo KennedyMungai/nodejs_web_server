@@ -9,4 +9,6 @@ class Emitter extends EventEmitter { }
 
 myEmitter = new Emitter()
 
+const PORT = process.env.PORT || 3500
+
 // myEmitter.on('log', (msg) => logEvents(msg))
