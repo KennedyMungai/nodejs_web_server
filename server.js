@@ -1,9 +1,9 @@
 const logEvents = require('./logEvents')
 const EventEmitter = require('events')
 
-class MyEmitter extends EventEmitter { }
+class Emitter extends EventEmitter { }
 
-myEmitter = new MyEmitter()
+myEmitter = new Emitter()
 
 myEmitter.on('log', (msg) => logEvents(msg))
 
