@@ -16,7 +16,9 @@ const serveFile = async (filePath, contentType, response) => {
         const rawData = await fsPromises.readFile(filePath, 'utf-8')
         const data = contentType === 'application/json' ? JSON.parse(rawData) : rawData
         response.writeHead(200, { 'Content-Type': contentType })
-        response.end(rawData)
+        response.end(
+            contentType === 'application/json' ? JSON.stringify(data) : data
+        )
     } catch (err) {
         console.log(err)
         response.statusCode = 500
