@@ -13,9 +13,9 @@ const PORT = process.env.PORT || 3500
 
 const serveFile = async (filePath, contentType, response) => {
     try {
-        const data = await fsPromises.readFile(filePath, 'utf-8')
+        const rawData = await fsPromises.readFile(filePath, 'utf-8')
         response.writeHead(200, { 'Content-Type': contentType })
-        response.end(data)
+        response.end(rawData)
     } catch (err) {
         console.log(err)
         response.statusCode = 500
