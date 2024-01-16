@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
             contentType = 'text/plain'
             break
         case '.jpg':
-            contentType = 'image/jpg'
+            contentType = 'image/jpeg'
             break
         default:
             contentType = 'text/html'
