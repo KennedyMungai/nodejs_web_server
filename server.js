@@ -61,7 +61,7 @@ const server = http.createServer((req, res) => {
     const fileExists = fs.existsSync(filePath)
 
     if (fileExists) {
-        // Serve the file
+        serveFile(filePath, contentType, res)
     }
     else {
         // 404
@@ -76,7 +76,7 @@ const server = http.createServer((req, res) => {
                 res.end()
                 break
             default:
-            // Serve a 404 response
+                serveFile(path.join(__dirname, 'views', '404.html'), 'text/html', res)
         }
     }
 })
