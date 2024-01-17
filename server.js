@@ -9,6 +9,8 @@ class Emitter extends EventEmitter { }
 
 myEmitter = new Emitter()
 
+myEmitter.on('log', (msg, fileName) => logEvents(msg, fileName))
+
 const PORT = process.env.PORT || 3500
 
 const serveFile = async (filePath, contentType, response) => {
@@ -90,5 +92,3 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`))
-
-myEmitter.on('log', (msg) => logEvents(msg))
