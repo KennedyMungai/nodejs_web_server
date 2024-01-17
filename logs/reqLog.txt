@@ -12,3 +12,15 @@ Wednesday, January 17, 2024 11:22 AM	b79abfca-284d-4798-a092-6d5e13dde753	/css/s
 
 Wednesday, January 17, 2024 11:22 AM	5b267b14-02d7-4ed2-922a-a4e6d24b1ea8	/img/img1.jpg	GET
 
+Wednesday, January 17, 2024 11:22 AM	0c5adb3c-19cc-4a90-9d79-77d5c0b540fa	/	GET
+
+Wednesday, January 17, 2024 11:22 AM	ca4c6c8d-196c-4bf1-bce0-4e541f91eea0	/css/style.css	GET
+
+Wednesday, January 17, 2024 11:22 AM	2635e33f-8a68-4ac6-baec-040f4deaa5de	/data/data.json	GET
+
+Wednesday, January 17, 2024 11:23 AM	a3c2e147-50b5-488b-b29e-77426bc20c1d	/new-page.html	GET
+
+Wednesday, January 17, 2024 11:23 AM	3a705d43-aed8-4666-8342-799103c6b5b9	/css/style.css	GET
+
+Wednesday, January 17, 2024 11:23 AM	2f1bdaab-c026-42b9-bf19-90afbc35cde4	/img/img1.jpg	GET
+
