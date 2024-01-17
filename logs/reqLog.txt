@@ -24,3 +24,7 @@ Wednesday, January 17, 2024 11:23 AM	3a705d43-aed8-4666-8342-799103c6b5b9	/css/s
 
 Wednesday, January 17, 2024 11:23 AM	2f1bdaab-c026-42b9-bf19-90afbc35cde4	/img/img1.jpg	GET
 
+Wednesday, January 17, 2024 11:24 AM	8fd71711-930d-4a38-98da-e77a350344dd	/	GET
+
+Wednesday, January 17, 2024 11:24 AM	f8d15ed0-67fc-42ef-9e2b-93ff58a424d1	/	GET
+
