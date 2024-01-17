@@ -31,6 +31,7 @@ const serveFile = async (filePath, contentType, response) => {
 
 const server = http.createServer((req, res) => {
     console.log(req.url, req.method)
+    myEmitter.emit('log', `${req.url}\t${req.method}`, 'reqLog.txt')
 
     const extension = path.extname(req.url)
 
@@ -90,4 +91,3 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 
 myEmitter.on('log', (msg) => logEvents(msg))
-myEmitter.emit('log', 'Log Event Emitted')
