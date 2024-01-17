@@ -1,0 +1,14 @@
+Wednesday, January 17, 2024 11:21 AM	10d9a59d-1c31-4418-8dd6-c80e7b3863ca	/data/data.json	GET
+
+Wednesday, January 17, 2024 11:21 AM	ed337505-3ceb-4dc9-ad94-c4de7981e1b9	/favicon.ico	GET
+
+Wednesday, January 17, 2024 11:21 AM	0aa0a8af-e4d5-4e90-916d-5d947f4c66e0	/	GET
+
+Wednesday, January 17, 2024 11:21 AM	038b3ee4-52ff-4844-8983-580690b17cc3	/css/style.css	GET
+
+Wednesday, January 17, 2024 11:22 AM	d7b63433-d050-440f-a60d-d670d15c5efc	/new-page.html	GET
+
+Wednesday, January 17, 2024 11:22 AM	b79abfca-284d-4798-a092-6d5e13dde753	/css/style.css	GET
+
+Wednesday, January 17, 2024 11:22 AM	5b267b14-02d7-4ed2-922a-a4e6d24b1ea8	/img/img1.jpg	GET
+
