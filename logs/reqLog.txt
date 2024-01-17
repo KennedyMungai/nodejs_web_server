@@ -28,3 +28,17 @@ Wednesday, January 17, 2024 11:24 AM	8fd71711-930d-4a38-98da-e77a350344dd	/	GET
 
 Wednesday, January 17, 2024 11:24 AM	f8d15ed0-67fc-42ef-9e2b-93ff58a424d1	/	GET
 
+Wednesday, January 17, 2024 11:25 AM	df585edc-3473-444a-a1f9-83102b22711d	/	GET
+
+Wednesday, January 17, 2024 11:25 AM	ea304c0c-0423-49cf-a7ed-b9cd2d9924e4	/css/style.css	GET
+
+Wednesday, January 17, 2024 11:26 AM	4cb76b53-2287-4b58-aba7-97a7031b4f3d	/data/data.json	GET
+
+Wednesday, January 17, 2024 11:26 AM	f7376f37-9a02-48f5-8c0c-798beaa19841	/index.html	GET
+
+Wednesday, January 17, 2024 11:26 AM	1ee1283f-34ce-4393-9273-3bf3bff2db3b	/css/style.css	GET
+
+Wednesday, January 17, 2024 11:26 AM	b5f8c218-9417-4d75-9082-0bfc6e4f93f1	/	GET
+
+Wednesday, January 17, 2024 11:26 AM	b86460d8-cd6f-4dd2-9f56-6db876af9afb	/css/style.css	GET
+
