@@ -18,7 +18,7 @@ const serveFile = async (filePath, contentType, response) => {
             !contentType.includes('image') ? 'utf-8' : ''
         )
         const data = contentType === 'application/json' ? JSON.parse(rawData) : rawData
-        response.writeHead(filePath.includes('404.html') ? 404 : 200 , { 'Content-Type': contentType })
+        response.writeHead(filePath.includes('404.html') ? 404 : 200, { 'Content-Type': contentType })
         response.end(
             contentType === 'application/json' ? JSON.stringify(data) : data
         )
